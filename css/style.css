@@ -16,7 +16,7 @@
     margin: 0.2rem;
     position: relative;
 }
-
+/* Badge */
 .badge_discount {
     background-color: #EB0037;
     padding: 4px;
@@ -34,10 +34,21 @@
     font-size: 0.65rem;
     color: white;
     font-weight: bold;
+}
+
+.position_sostenibilità{
     position: absolute;
     bottom: 5rem;
     left: 2.3rem;
 }
+
+.position_sostenibilità_mod{
+    position: absolute;
+    bottom: 5rem;
+    left: 0;
+}
+
+/* /Badge */
 
 .like {
     width: 2rem;
@@ -50,7 +61,7 @@
     vertical-align: middle;
     line-height: 2rem;
 }
-
+/* Image */
 img{
     width: 320px;
     height: 500px;
@@ -67,7 +78,9 @@ img{
 .product:hover .hidden{
     visibility: visible;
 }
+/* /Image */
 
+/* Description */
 .description{
     text-align: left;
 }
@@ -78,10 +91,12 @@ img{
 }
 
 .price{
-    color: #EB0037;
+    color: red;
+    font-weight: bold;
 }
 
 .price > span{
     text-decoration: line-through;
     color: black;
 }
+/* /Description */
