@@ -13,7 +13,7 @@
 .product {
     display: inline-block;
     position: relative;
-    margin: 1rem;
+    margin: 0.2rem;
     position: relative;
 }
 
@@ -24,7 +24,7 @@
     color: white;
     font-weight: bold;
     position: absolute;
-    bottom: 1rem;
+    bottom: 5rem;
     left:0;
 }
 
@@ -35,7 +35,7 @@
     color: white;
     font-weight: bold;
     position: absolute;
-    bottom: 1rem;
+    bottom: 5rem;
     left: 2.3rem;
 }
 
@@ -66,4 +66,22 @@ img{
 
 .product:hover .hidden{
     visibility: visible;
+}
+
+.description{
+    text-align: left;
+}
+
+.model{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.price{
+    color: #EB0037;
+}
+
+.price > span{
+    text-decoration: line-through;
+    color: black;
 }
