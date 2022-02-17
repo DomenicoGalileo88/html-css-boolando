@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.products {
+    width: 1200px;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.product {
+    display: inline-block;
+    position: relative;
+    margin: 1rem;
+    position: relative;
+}
+
+.badge {
+    padding: 4px;
+    font-size: 0.65rem;
+    position: absolute;
+    bottom: 1rem;
+    left:0;
+    background-color: #EB0037;
+}
+
+.like {
+    width: 2rem;
+    height: 2rem;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 1rem;
+    font-size: 1.2rem;
+    vertical-align: middle;
+    line-height: 2rem;
+}
