@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.products {
+    width: 1200px;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.product {
+    display: inline-block;
+    position: relative;
+    margin: 0.2rem;
+    position: relative;
+}
+/* Badge */
+.badge_discount {
+    background-color: #ebdb00;
+    padding: 4px;
+    font-size: 0.65rem;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 5rem;
+    left:0;
+}
+
+.badge_sostenibilità{
+    background-color: #5adf02;
+    padding: 4px;
+    font-size: 0.65rem;
+    color: white;
+    font-weight: bold;
+}
+
+.position_sostenibilità{
+    position: absolute;
+    bottom: 5rem;
+    left: 2.3rem;
+}
+
+.position_sostenibilità_mod{
+    position: absolute;
+    bottom: 5rem;
+    left: 0;
+}
+
+/* /Badge */
+
+.like {
+    width: 2rem;
+    height: 2rem;
+    color: red;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    right: 0;
+    top: 1rem;
+    font-size: 1.2rem;
+    vertical-align: middle;
+    line-height: 2rem;
+}
+/* Image */
+img{
+    width: 320px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.hidden{
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.product:hover .hidden{
+    visibility: visible;
+}
+/* /Image */
+
+/* Description */
+.description{
+    text-align: left;
+}
+
+.model{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.price{
+    color: rgb(30, 255, 0);
+    font-weight: bold;
+}
+
+.price > span{
+    text-decoration: line-through;
+    color: rgb(235, 6, 6);
+}
+/* /Description */
