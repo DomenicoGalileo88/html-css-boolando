@@ -17,13 +17,26 @@
     position: relative;
 }
 
-.badge {
+.badge_discount {
+    background-color: #EB0037;
     padding: 4px;
     font-size: 0.65rem;
+    color: white;
+    font-weight: bold;
     position: absolute;
     bottom: 1rem;
     left:0;
-    background-color: #EB0037;
+}
+
+.badge_sostenibilità{
+    background-color: #00875A;
+    padding: 4px;
+    font-size: 0.65rem;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 1rem;
+    left: 2.3rem;
 }
 
 .like {
@@ -36,4 +49,21 @@
     font-size: 1.2rem;
     vertical-align: middle;
     line-height: 2rem;
+}
+
+img{
+    width: 320px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.hidden{
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.product:hover .hidden{
+    visibility: visible;
 }
